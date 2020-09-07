@@ -29,7 +29,7 @@ setup(
     name='hepdata-converter-ws',
     version=get_version(),
     install_requires=[
-        'hepdata-converter>=0.2',
+        'hepdata-converter @ git+https://github.com/HEPData/hepdata-converter.git@feature/root-yoda-updates#egg=hepdata-converter',
         'flask>=1.1.1,<2',
         'sentry-sdk[flask]==0.15.1'
     ],
